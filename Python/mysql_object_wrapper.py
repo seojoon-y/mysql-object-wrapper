@@ -53,7 +53,7 @@ def update(table, dictionary, where):
 	mycursor.close()
 	mydb.close()
 
-def execute(SQL):
+def query(SQL):
 	global conn, credentials
 	assert credentials != None, fail_return("Please set the credentials first, by using j.set_credentials()")
 	mydb = conn.connect(**credentials)
