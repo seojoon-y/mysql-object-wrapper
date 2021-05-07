@@ -1,6 +1,7 @@
 # mysql-object-wrapper
 Isn't it annoying to have to structure queries every time you use MySQL?
 I've had the same problem, so I built a simple wrapper to easily convert objects into MySQL statements.
+It's available for **Python** and **Node.Js** programming languages.
 
 ## examples
 For example, you can write this:
@@ -11,7 +12,7 @@ info = {
 }
 j.insert("main", info)
 ```
-Rather than this:
+Rather than this madness:
 ```
 mydb = conn.connect(**credentials)
 mycursor = mydb.cursor()
@@ -22,3 +23,6 @@ mydb.commit()
 mycursor.close()
 mydb.close()
 ```
+## installation
+Drag and drop the `'mysql_object_wrapper'` code into the project folder.
+In your main code, import the file and start using it.
