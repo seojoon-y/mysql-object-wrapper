@@ -1,2 +1,8 @@
 # mysql-object-wrapper
-A MySQL wrapper that simplifies your code and allows you to execute common queries using objects.
+Isn't it annoying to have to structure queries every time you use MySQL?
+I've had the same problem, so I built a simple wrapper to easily convert objects into MySQL statements.
+For example:
+```
+hi
+
+```
