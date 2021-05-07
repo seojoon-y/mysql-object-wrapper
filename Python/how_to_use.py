@@ -1,4 +1,4 @@
-import J_DB_LIB as j
+import mysql_object_wrapper as j
 
 # Set your credentials
 j.set_credentials(host="localhost", user="root", password="", database="__YOUR_DB_NAME__")
