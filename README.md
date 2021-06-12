@@ -1,4 +1,4 @@
-# mysql-object-wrapper
+# mysql-nosql
 Isn't it annoying to have to structure queries every time you use MySQL?
 I've had the same problem, so I built a simple wrapper to easily convert objects into MySQL statements.
 It's available for **Python** and **Node.Js** programming languages.
